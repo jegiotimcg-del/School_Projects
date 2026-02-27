@@ -1,4 +1,4 @@
-# Python Projects – Student Work Collection
+# Python Projects – Students Work Collection
 
 This folder contains Python projects developed by my students as part of their academic learning and practical programming exercises.
 
