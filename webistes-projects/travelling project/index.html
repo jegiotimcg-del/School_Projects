@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Toure</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>       
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+ <img src="btn.jpeg" alt="" class="menu-btn">
+       
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="Events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="two person.jpg">
+                <h4>Everst camp track</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores distinctio quasi sint eum reprehenderit fuga beatae maximum.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+           <div class="col">
+                <img src="camera.jpg">
+                <h4>Sunny Holidays</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores distinctio quasi sint eum reprehenderit fuga beatae maximuum.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>    
+            </div>
+    </section>
+    <section class="Explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae adipisci tenetur accusantium hic voluptatem inventore odit iste incidunt quisquam facilis temporibus, delectus illum excepturi quod fugit dolor quo iusto!</P>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quidem omnis dicta, mollitia facere unde dolorem provident adipisci sapiente. Doloribus laudantium exercitationem commodi sequi fugit modi impedit optio pariatur nihil.</P>
+                <a href="#" class="ctn">Learn More</a>
+
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="water.jpg" alt="">
+                    <img src="OIP.webp" alt="">
+                    <img src="purple.jpg" alt="">
+                    <img src="rock.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Fifth Avenue Ny 10160,New york,USA | Phone 800-123-456 |Email IMCG jagiot@gmail.com</p>
+        <p>Copyright @ 2022 Outdoor Adventures</p>
+    </section>
+    <script>
+    const menuBtn= document.querySelector('.menu-btn')
+    const navlinks= document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+    navlinks.classList.toogle('mobile-menu');
+    });
+    </script>
+</body>
+</html>
