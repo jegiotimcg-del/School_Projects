@@ -1,1 +1,224 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #002147;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-text {
+    font-style: italic;
+    font-size: 1rem;
+}
+/* Jumbotron */
+.jumbotron {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.jumbotron h2 {
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+.jumbotron p {
+    font-size: 1.1rem;
+}
+
+/* Thumbnail */
+.thumbnail {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-style: italic;
+    color: #555;
+}
+
+/* Biography list */
+.col-lg-11 ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.col-lg-11 li {
+    margin-bottom: 10px;
+}
+
+/* Blockquote */
+blockquote {
+    background-color: #e9ecef;
+    border-left: 5px solid #002147;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+blockquote footer {
+    text-align: right;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #002147;
+    color: white;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .thumbnail img {
+        max-width: 100%;
+    }
+
+    .col-lg-11 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* Jumbotron */
+.jumbotron {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.jumbotron h2 {
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+.jumbotron p {
+    font-size: 1.1rem;
+}
+
+/* Thumbnail */
+.thumbnail {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-style: italic;
+    color: #555;
+}
+
+/* Biography list */
+.col-lg-11 ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.col-lg-11 li {
+    margin-bottom: 10px;
+}
+
+/* Blockquote */
+blockquote {
+    background-color: #e9ecef;
+    border-left: 5px solid #002147;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+blockquote footer {
+    text-align: right;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #002147;
+    color: white;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .thumbnail img {
+        max-width: 100%;
+    }
+
+    .col-lg-11 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+
 
