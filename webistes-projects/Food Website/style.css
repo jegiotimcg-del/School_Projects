@@ -1,1 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(0,0,0,0.7) url('food.png') center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.container h1 {
+  color: orangered;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 18px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 10px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {orangered;
+}
+  box-shadow: 0 3px 15px 
+
+.navbar ul li a.reservation {
+  background-color: orangered;
+  border-radius: 4px;
+}
+
+/* Content */
+.content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.content h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.content h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.content p {
+  margin-top: 15px;
+}
+
+/* Search */
+.search {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.search input {
+  padding: 12px;
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+/* Submit */
+.submit {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.submit a {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 25px;
+  background-color: orangered;
+  border-radius: 4px;
+}
 
